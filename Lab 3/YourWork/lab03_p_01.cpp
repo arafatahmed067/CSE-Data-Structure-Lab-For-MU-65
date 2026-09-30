@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std ;
+struct node {
+    int val;
+    node *next;
+};
+
+struct singlylinkedlist {
+    node * head , *tail;
+    singlylinkedlist(){
+         head = NULL;
+        tail = NULL;
+        cout<<"Singly linked list initialized !\n";
+    }
+};
+
+int main(){
+    singlylinkedlist s1;
+    return 0;
+}
